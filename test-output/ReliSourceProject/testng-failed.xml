@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ReliSourceProject]">
+  <test thread-count="5" name="projectTest(failed)">
+    <classes>
+      <class name="com.relisource.Project.Test.ProjectTest">
+        <methods>
+          <include name="RelisourceTest"/>
+        </methods>
+      </class> <!-- com.relisource.Project.Test.ProjectTest -->
+    </classes>
+  </test> <!-- projectTest(failed) -->
+</suite> <!-- Failed suite [ReliSourceProject] -->

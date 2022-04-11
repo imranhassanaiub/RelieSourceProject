@@ -1,0 +1,10 @@
+<suite name="ReliSourceProject">
+
+	<test name="projectTest">
+		<classes>
+			<class name="com.relisource.Project.Test.ProjectTest" />
+		</classes>
+	</test>
+
+</suite>
+
