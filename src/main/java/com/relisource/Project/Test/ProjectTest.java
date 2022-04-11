@@ -19,7 +19,7 @@ public class ProjectTest {
 
 		driver.get(UrlTextUtils.Url.Base_URL);
 
-		// Start Executing driver.findElement(By.xpath(XpathUtils.SelectBtn)).click();
+		driver.findElement(By.xpath(XpathUtils.SelectBtn)).click();
 		driver.findElement(By.xpath(XpathUtils.searchstudyfield)).sendKeys(UrlTextUtils.Text.textselect);
 		Select element = new Select(driver.findElement(By.xpath(XpathUtils.searchstudyfield)));
 		element.selectByVisibleText(UrlTextUtils.Text.textselect);
